@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+$textTransform: uppercase;
+$Green: hsl(158, 36%, 37%);
+$GreenHover: hsl(158, 42%, 18%);
+$White: hsl(0, 0%, 100%);
+$Black: hsl(212, 21%, 14%);
+$Grey: hsl(228, 12%, 48%);
+$Cream: hsl(30, 38%, 92%);
+$paragraphSize: 1rem;
+$Fraunces: "Fraunces", sans-serif;
+$Montserrat: "Montserrat", sans-serif;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: $Cream;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#container {
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  transform: scale(0.9);
+  background-color: $White;
+  border-radius: 10px;
+  transform: scale(0.7);
+  overflow: hidden;
+}
+
+#image-container {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+
+#product-info {
+  width: 100vw;
+  max-width: 600px;
+  padding: 20px;
+}
+
+h1 {
+  color: $Black;
+  font-family: $Fraunces;
+  font-weight: 700;
+  font-size: 2em;
+}
+
+h2 {
+  color: $Grey;
+  font-family: $Montserrat;
+  font-weight: 500;
+  text-transform: $textTransform;
+  font-size: 1rem;
+}
+
+p {
+  font-size: $paragraphSize;
+  color: $Grey;
+  font-family: $Montserrat;
+}
+
+span {
+  font-weight: 500;
+  color: $Grey;
+  font-family: $Montserrat;
+}
+
+.discount {
+  color: $Green;
+  font-family: $Fraunces;
+  font-weight: 700;
+  font-size: 2em;
+}
+
+button {
+  display: block;
+  background-color: $Green;
+  width: 100%; // Make button fill #product-info
+  text-align: center;
+  padding: 1rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button > span {
+  font-weight: 500;
+  color: $White;
+  font-family: $Montserrat;
+  font-weight: 700;
+}
