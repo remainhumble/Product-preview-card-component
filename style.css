@@ -49,6 +49,7 @@ h1 {
   font-family: "Fraunces", sans-serif;
   font-weight: 700;
   font-size: 2em;
+  margin: 10px 0;
 }
 
 h2 {
@@ -57,12 +58,17 @@ h2 {
   font-weight: 500;
   text-transform: uppercase;
   font-size: 1rem;
+  letter-spacing: 5px;
+  font-size: 1;
 }
 
 p {
   font-size: 1rem;
   color: hsl(228, 12%, 48%);
   font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  margin: 10px 0;
+  line-height: 1.5;
 }
 
 span {
@@ -71,11 +77,29 @@ span {
   font-family: "Montserrat", sans-serif;
 }
 
+#price {
+  display: flex;
+  align-items: center;
+}
+
 .discount {
+  margin: 17px 0;
+}
+
+.discount > span {
   color: hsl(158, 36%, 37%);
   font-family: "Fraunces", sans-serif;
   font-weight: 700;
-  font-size: 2em;
+  font-size: 2.5em;
+}
+
+.original-price {
+  display: inline-block;
+  margin-left: 20px;
+  text-decoration: line-through;
+  color: hsl(228, 12%, 48%);
+  font-weight: 500;
+  font-size: 1rem;
 }
 
 button {

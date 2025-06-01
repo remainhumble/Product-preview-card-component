@@ -61,6 +61,7 @@ h1 {
   font-family: $Fraunces;
   font-weight: 700;
   font-size: 2em;
+  margin: 10px 0;
 }
 
 h2 {
@@ -69,12 +70,17 @@ h2 {
   font-weight: 500;
   text-transform: $textTransform;
   font-size: 1rem;
+  letter-spacing: 5px;
+  font-size: 1; 
 }
 
 p {
   font-size: $paragraphSize;
   color: $Grey;
   font-family: $Montserrat;
+  font-weight: 500;
+  margin: 10px 0;
+  line-height: 1.5;
 }
 
 span {
@@ -83,11 +89,29 @@ span {
   font-family: $Montserrat;
 }
 
+#price {
+  display: flex;
+  align-items: center;
+}
+
 .discount {
+  margin: 17px 0;
+}
+
+.discount > span {
   color: $Green;
   font-family: $Fraunces;
   font-weight: 700;
-  font-size: 2em;
+  font-size: 2.5em;
+}
+
+.original-price {
+  display: inline-block;
+  margin-left: 20px;
+  text-decoration: line-through;
+  color: $Grey;
+  font-weight: 500;
+  font-size: 1rem;
 }
 
 button {
