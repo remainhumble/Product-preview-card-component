@@ -71,7 +71,7 @@ h2 {
   text-transform: $textTransform;
   font-size: 1rem;
   letter-spacing: 5px;
-  font-size: 1; 
+  font-size: 0.9rem; 
 }
 
 p {
@@ -130,4 +130,9 @@ button > span {
   color: $White;
   font-family: $Montserrat;
   font-weight: 700;
+}
+
+button > span::before {
+  content: url(images/icon-cart.svg);
+  margin-right: 10px;
 }

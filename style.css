@@ -59,7 +59,7 @@ h2 {
   text-transform: uppercase;
   font-size: 1rem;
   letter-spacing: 5px;
-  font-size: 1;
+  font-size: 0.9rem;
 }
 
 p {
@@ -118,4 +118,9 @@ button > span {
   color: hsl(0, 0%, 100%);
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
+}
+
+button > span::before {
+  content: url(images/icon-cart.svg);
+  margin-right: 10px;
 }/*# sourceMappingURL=style.css.map */
