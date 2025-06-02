@@ -13,12 +13,12 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+
 
 ## Overview
+
+This project is a responsive product preview card component built as part of a Frontend Mentor challenge. The goal was to recreate a visually appealing card that showcases a product, including its image, description, price, and a call-to-action button. The component adapts seamlessly to different screen sizes, ensuring a consistent user experience on both desktop and mobile devices. The implementation emphasizes semantic HTML, modern CSS (including custom properties and Sass), and accessibility best practices.
 
 ### The challenge
 
